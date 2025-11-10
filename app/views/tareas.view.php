@@ -21,12 +21,22 @@
             <h1>Mi Lista de Tareas</h1>
         </header>
         <main>
-            <?php
-                foreach ($tasks as $task) {
-                    
-                    echo renderizarTarea($task);
-                }
-            ?>
+            <h2>Tareas Pendientes</h2>
+            <ul>
+                <?php
+                    $tasks = [
+                        ["title" => "Comprar víveres", "completed" => false, "priority" => "alta"],
+                        ["title" => "Lavar el coche", "completed" => true, "priority" => "media"],
+                        ["title" => "Estudiar PHP", "completed" => false, "priority" => "baja"],
+                        ["title" => "Hacer ejercicio", "completed" => true, "priority" => "alta"],
+                        ["title" => "Leer un libro", "completed" => false, "priority" => "baja"],
+                    ];
+                    foreach ($tasks as $task) {
+                        
+                        echo renderizarTarea($task);
+                    }
+                ?>
+            </ul>
         </main>
         
         <footer>

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"AuthTest::testLoginConCredencialesValidas":7},"times":{"AuthTest::testLoginConCredencialesValidas":0.12,"AuthTest::testLoginConCredencialesInvalidas":0.002}}

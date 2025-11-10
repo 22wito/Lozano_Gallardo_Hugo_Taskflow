@@ -25,10 +25,5 @@ function renderizarTarea($tarea){
     }
 
     return "<li class='" . $taskClasses . "'>" . htmlspecialchars($tarea["title"]) . "</li>";
-    
 }
-
-
-
-
 ?>
